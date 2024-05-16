@@ -1,0 +1,62 @@
+$navbar-fa-bars-bg:$primary;
+
+
+header{
+
+
+    .navbar{
+   
+     
+        
+        .fa-bars{
+            color:$navbar-fa-bars-bg;
+
+
+        }
+        .navbar-toggler{
+
+            color:transparent;
+            border-color: rgba(0, 0, 0, 0.0);
+            border:0px soild $gray-900;
+        }
+     
+
+    }
+    
+    
+    .navbar-nav{
+        a{
+           
+            font-size: 1.4rem;
+            line-height:1.7rem;
+            font-weight:$font-weight-medium;
+            padding:10px;
+               text-align:center;
+        }
+        
+
+
+        
+    }//nav-bar ends
+    // nav-bar ends
+
+}
+//header ends
+
+@media(min-width:768px){
+  
+
+  li{
+           
+           margin-left:22px;
+        }
+
+}
+
+@media(min-width:992px){
+
+       li{
+           
+           margin-left:52px;
+        }
+}
