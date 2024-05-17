@@ -10,3 +10,38 @@ body{
     font-family: $base-font;
     font-weight:$font-weight-light;
 }
+
+
+.btn{
+     border-radius: 22.5px;
+  background-color: $primary;
+   font-size: 1.4rem;
+  font-weight: $font-weight-medium;
+  letter-spacing: 1px;
+  line-height: 17px;
+  padding:14px 26px;
+    
+}
+
+main{
+    
+    padding-top:54.5px;
+}
+
+
+@media (min-width:576px){
+    
+    main{
+        padding-top:57px;
+    }
+}
+
+@media (min-width:992px){
+    
+    main{
+        padding-top:77px;
+    }
+}
+
+
+

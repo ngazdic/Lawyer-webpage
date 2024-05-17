@@ -9297,6 +9297,30 @@ body {
   font-weight: 300;
 }
 
+.btn {
+  border-radius: 22.5px;
+  background-color: #1A77CD;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 17px;
+  padding: 14px 26px;
+}
+
+main {
+  padding-top: 54.5px;
+}
+
+@media (min-width: 576px) {
+  main {
+    padding-top: 57px;
+  }
+}
+@media (min-width: 992px) {
+  main {
+    padding-top: 77px;
+  }
+}
 header .navbar .fa-bars {
   color: #1A77CD;
 }
@@ -9322,6 +9346,28 @@ header .navbar-nav a {
   li {
     margin-left: 52px;
   }
+}
+.lead-page-section {
+  padding-top: 140px;
+  background-position: right top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.lead-page-section .lead-section-item {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 50px;
+}
+.lead-page-section .lead-section-item .lead-section-title {
+  font-size: 5.1rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 6.4rem;
+}
+.lead-page-section .lead-section-item .lead-section-description {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  margin-bottom: 2.7rem;
 }
 
 /*# sourceMappingURL=theme.css.map */
