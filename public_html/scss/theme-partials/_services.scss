@@ -1,0 +1,28 @@
+
+
+
+.services-section{
+    
+    margin-bottom:89px;
+
+    .services-title{
+        font-size: 3.6rem;
+        font-weight: $font-weight-medium;
+        letter-spacing: 0;
+        line-height: 6.4rem;
+
+    }
+
+    .services-items{
+
+        a{
+            color:$gray-900;
+            font-size: $font-size-base;
+            font-weight:  $font-weight-medium;
+            letter-spacing: 0.114rem;
+            line-height: 2.2rem;
+        } 
+    }
+
+
+}

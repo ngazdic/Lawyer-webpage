@@ -162,7 +162,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #115089;
+  color: #1A77CD;
   text-decoration: underline;
 }
 
@@ -2697,7 +2697,7 @@ fieldset:disabled a.btn {
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #115089;
+  color: #1A77CD;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -4419,7 +4419,7 @@ input[type=button].btn-block {
 }
 .page-link:hover {
   z-index: 2;
-  color: #115089;
+  color: #1A77CD;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -9352,6 +9352,7 @@ header .navbar-nav a {
   background-position: right top;
   background-size: auto 100%;
   background-repeat: no-repeat;
+  margin-bottom: 75px;
 }
 .lead-page-section .lead-section-item {
   background-color: rgba(255, 255, 255, 0.5);
@@ -9368,6 +9369,23 @@ header .navbar-nav a {
   font-weight: 300;
   line-height: 2.5rem;
   margin-bottom: 2.7rem;
+}
+
+.services-section {
+  margin-bottom: 89px;
+}
+.services-section .services-title {
+  font-size: 3.6rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 6.4rem;
+}
+.services-section .services-items a {
+  color: #1E1E1E;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.114rem;
+  line-height: 2.2rem;
 }
 
 /*# sourceMappingURL=theme.css.map */
