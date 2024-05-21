@@ -40,6 +40,35 @@ $(document).ready(function(){
 
     });
     animation();
+    
+    //owl carousel
+   $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:72,
+    slideBy: 2,
+    
+   
+   
+  responsive:{
+            0:{
+                items: 1, // For viewport width less than 360px, display 1 item
+                dots:true
+                 
+            },
+            360:{
+                items: 1, // For viewport width of 360px, display 1 item
+                 dots:true
+                
+            },
+            768:{
+                items: 2,
+                dotsEach: 2,
+                 dots:true
+                 
+            }
+        }
+  
+});
 
     
 });
