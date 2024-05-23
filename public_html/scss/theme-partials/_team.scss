@@ -1,0 +1,56 @@
+
+
+.team-memebers{
+    
+margin-bottom:133px;
+
+ figure{
+            overflow:hidden;
+            img{
+                transition:1s linear;
+                &:hover{
+                    transform:scale(1.05);
+                }
+            }
+        }
+
+.team-member{
+    .fa-linkedin{
+       
+        position:absolute;
+        bottom:16px;
+        right:15px;
+        color:$white;
+        font-size:2.8rem;
+        z-index:10;
+            &:hover{text-decoration: none;}
+    }
+    
+    h5{
+        
+        a{
+            
+            font-size:2.2rem;
+            line-height:2.7rem;
+            color:$body-color;
+               &:hover{text-decoration: none;}
+        }
+    }
+    
+    .team-member-position{
+        
+        color:primary;
+        font-size:1.8rem;
+        line-height:2.7rem;
+        font-weight:$font-weight-medium;
+        color:$primary;
+    }
+    
+}
+}
+
+
+@media (min-width:992px){
+
+    
+}
