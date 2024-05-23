@@ -4,6 +4,342 @@ html {
   font-size: 10px;
 }
 
+@media (min-width: 576px) {
+  .w-20-sm {
+    width: 20%;
+  }
+}
+
+@media (min-width: 576px) {
+  .h-20-sm {
+    height: 20%;
+  }
+}
+
+@media (min-width: 576px) {
+  .w-25-sm {
+    width: 25%;
+  }
+}
+
+@media (min-width: 576px) {
+  .h-25-sm {
+    height: 25%;
+  }
+}
+
+@media (min-width: 576px) {
+  .w-50-sm {
+    width: 50%;
+  }
+}
+
+@media (min-width: 576px) {
+  .h-50-sm {
+    height: 50%;
+  }
+}
+
+@media (min-width: 576px) {
+  .w-75-sm {
+    width: 75%;
+  }
+}
+
+@media (min-width: 576px) {
+  .h-75-sm {
+    height: 75%;
+  }
+}
+
+@media (min-width: 576px) {
+  .w-80-sm {
+    width: 80%;
+  }
+}
+
+@media (min-width: 576px) {
+  .h-80-sm {
+    height: 80%;
+  }
+}
+
+@media (min-width: 576px) {
+  .w-100-sm {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .h-100-sm {
+    height: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .w-auto-sm {
+    width: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .h-auto-sm {
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-20-md {
+    width: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-20-md {
+    height: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-25-md {
+    width: 25%;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-25-md {
+    height: 25%;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-50-md {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-50-md {
+    height: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-75-md {
+    width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-75-md {
+    height: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-80-md {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-80-md {
+    height: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-100-md {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-100-md {
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-auto-md {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-auto-md {
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-20-lg {
+    width: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  .h-20-lg {
+    height: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-25-lg {
+    width: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .h-25-lg {
+    height: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-50-lg {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .h-50-lg {
+    height: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-75-lg {
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .h-75-lg {
+    height: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-80-lg {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .h-80-lg {
+    height: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-100-lg {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .h-100-lg {
+    height: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-auto-lg {
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .h-auto-lg {
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .w-20-xl {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h-20-xl {
+    height: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .w-25-xl {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h-25-xl {
+    height: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .w-50-xl {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h-50-xl {
+    height: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .w-75-xl {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h-75-xl {
+    height: 75%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .w-80-xl {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h-80-xl {
+    height: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .w-100-xl {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h-100-xl {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .w-auto-xl {
+    width: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h-auto-xl {
+    height: auto;
+  }
+}
+
 /*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -7046,6 +7382,14 @@ button.bg-dark:focus {
   width: auto !important;
 }
 
+.w-20 {
+  width: 20% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
 .h-25 {
   height: 25% !important;
 }
@@ -7064,6 +7408,14 @@ button.bg-dark:focus {
 
 .h-auto {
   height: auto !important;
+}
+
+.h-20 {
+  height: 20% !important;
+}
+
+.h-80 {
+  height: 80% !important;
 }
 
 .mw-100 {
@@ -9534,6 +9886,43 @@ footer a:hover {
   .our-vision {
     margin-bottom: 133px;
   }
+}
+.lead-page-section {
+  margin-bottom: 0px;
+  background-position: right top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.lead-page-section .lead-section-item {
+  margin-bottom: 139px;
+}
+
+.services-new-page-section {
+  background-color: #11284B !important;
+  padding-top: 75px;
+  padding-bottom: 156px;
+}
+.services-new-page-section h3 {
+  color: #1A77CD !important;
+  margin-bottom: 45px !important;
+}
+.services-new-page-section .services-items {
+  margin-bottom: 50px;
+}
+.services-new-page-section .services-items a {
+  color: #FFFFFF !important;
+}
+.services-new-page-section .services-items .read-more {
+  color: #1A77CD !important;
+  font-size: 1.4rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.1rem !important;
+  line-height: 1.7rem !important;
+}
+.services-new-page-section .services-items p {
+  color: #F5F5F5 !important;
+  overflow: hidden;
+  height: 7.5rem;
 }
 
 /*# sourceMappingURL=theme.css.map */

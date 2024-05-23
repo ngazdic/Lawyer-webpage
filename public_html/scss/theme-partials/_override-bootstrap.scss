@@ -17,3 +17,45 @@ $navbar-light-active-color: $primary;
 
 $link-hover-color:$primary;
 
+$sizes: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+  (
+    20: 20%,
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    80: 80%,
+    100: 100%,
+    auto: auto
+  ),
+  $sizes
+);
+
+// Define breakpoints
+$breakpoints: (
+ 
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+// Generate utility classes for width and height
+@each $breakpoint, $value in $breakpoints {
+  @each $key, $size in $sizes {
+    .w-#{$key}-#{$breakpoint} {
+      @media (min-width: #{$value}) {
+        width: #{$size};
+      }
+    }
+
+    .h-#{$key}-#{$breakpoint} {
+      @media (min-width: #{$value}) {
+        height: #{$size};
+      }
+    }
+  }
+}
+
+
