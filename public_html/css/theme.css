@@ -340,6 +340,15 @@ html {
   }
 }
 
+#spinner {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
 /*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10842,6 +10851,80 @@ footer a:hover {
   .news-section .row {
     margin-bottom: 112px;
   }
+}
+.news-header .text-muted {
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  line-height: 2.7rem;
+  color: #1A77CD !important;
+}
+
+.lead-page-section {
+  margin-bottom: 0px;
+  background-position: right top;
+  background-size: auto 80%;
+}
+.lead-page-section .lead-section-item .lead-section-title {
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 46px;
+}
+.lead-page-section .lead-section-item .lead-section-description {
+  overflow: hidden;
+  line-height: 2.5rem;
+  max-height: 5em;
+}
+
+.tags {
+  margin-bottom: 144px;
+}
+.tags p {
+  padding-top: 20px;
+}
+.tags a {
+  border-radius: 4px !important;
+  background-color: #F5F5F5 !important;
+  padding: 2px 20px !important;
+  color: #1A77CD;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.lead-page-section {
+  margin-bottom: 64px !important;
+  padding-top: 140px;
+  background-position: right top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+}
+.lead-page-section .lead-section-item {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.lead-page-section .lead-section-item .lead-section-title {
+  color: #1E1E1E;
+  font-size: 5rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 6.4rem;
+}
+.lead-page-section .contact-info a {
+  color: #586C88;
+  font-family: Rubik;
+  font-size: 1.6rem;
+}
+
+.form {
+  margin-bottom: 128px;
+}
+.form .form-control::placeholder {
+  font-size: 1.6rem;
+  letter-spacing: -0.23px;
+  line-height: 2.5rem;
 }
 
 /*# sourceMappingURL=theme.css.map */

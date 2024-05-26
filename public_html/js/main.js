@@ -1,7 +1,7 @@
 
-$(document).ready(function(){
-    
-        function animation() {
+$(document).ready(function () {
+
+    function animation() {
 
         let windowHeight = $(window).height();//koliki je ekran, visina dakle
 
@@ -40,35 +40,40 @@ $(document).ready(function(){
 
     });
     animation();
-    
+
     //owl carousel
-   $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:72,
-    slideBy: 2,
-    
-   
-   
-  responsive:{
-            0:{
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 72,
+        slideBy: 2,
+
+        responsive: {
+            0: {
                 items: 1, // For viewport width less than 360px, display 1 item
-                dots:true
-                 
+                dots: true
+
             },
-            360:{
+            360: {
                 items: 1, // For viewport width of 360px, display 1 item
-                 dots:true
-                
+                dots: true
+
             },
-            768:{
+            768: {
                 items: 2,
                 dotsEach: 2,
-                 dots:true
-                 
+                dots: true
+
             }
         }
-  
+
+    });
+    
+
+
 });
 
-    
-});
+
+
+
+
+
